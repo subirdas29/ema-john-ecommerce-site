@@ -20,12 +20,12 @@ function App() {
       children:[
         {
          path:'/',
-         loader: async () => fetch('products.json'),
+         
          element: <Shop></Shop>
         },
         {
           path:'shop',
-          loader: async () => fetch('products.json'),
+          
           element: <Shop></Shop>
          },
         {

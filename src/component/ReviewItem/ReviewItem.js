@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 const ReviewItem = ({product,handleRemoveToCart}) => {
     const {img, name, price,shipping, quantity,id } = product;
+    console.log(product)
     return (
         <div className='review-item'>
             <div className='image-item'>
